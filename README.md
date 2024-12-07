@@ -1,16 +1,27 @@
-# trabalhofluter
+Aplicativo Harpa Crista gratis.
 
-Harpa Crista
+Atividades do trabalho
+Statefull = harpas/home.dart
 
-## Getting Started
+Stateless = main.dart
 
-This project is a starting point for a Flutter application.
+Persistênia = favoritos/FavoritosProvider
 
-A few resources to get you started if this is your first Flutter project:
+Retrofit = model/api_client.dart
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Teste com obertura de no minimo 10% = coverage/icov.info
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Gerência de estados = harpas/home.dart
+
+Plataform Channel = Notificação no android Android/app/main/kotlin/com.example.harpa/MainActivity.kt e NotificationSheduler.kt (Este caso em particular não consegui fazer ele funcionar)
+
+Usabilidade = No video toda a usabilidade do programa
+
+Temas = Utlilizando ThemeData
+
+URL da API: http://overclock.kinghost.net:21055/hinos
+Campos Retornados:
+numero (int): Número do hino.
+title (String): Título do hino.
+letra (String): Letra do hino.
+Banco de Dados: A API está vinculada ao banco de dados MongoDB.

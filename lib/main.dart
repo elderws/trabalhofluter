@@ -4,8 +4,8 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:provider/provider.dart';
 import 'favoritos/FavoritosProvider.dart';
 import 'favoritos/home.dart';
-import 'harpas/home.dart';
-import 'palavra/home.dart';
+import 'harpas/home.dart' as harpas;
+import 'palavra/home.dart' as palavra;
 
 void main() {
   runApp(
@@ -77,7 +77,7 @@ class HomePage extends StatelessWidget  {
                     onPressed: () {
                       Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => const HarpasHomePage()),
+                        MaterialPageRoute(builder: (context) => const harpas.HarpasHomePage()),
                       );
                     },
                     child: const Text('Harpas'),
@@ -101,7 +101,7 @@ class HomePage extends StatelessWidget  {
                     onPressed: () {
                       Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => const PalavraHomepage()),
+                        MaterialPageRoute(builder: (context) => const palavra.PalavraHomepage()),
                       );
                     },
                     child: const Text('Louvor do dia'),
