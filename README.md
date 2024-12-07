@@ -9,7 +9,7 @@ Persistênia = favoritos/FavoritosProvider
 
 Retrofit = model/api_client.dart
 
-Teste com obertura de no minimo 10% = coverage/icov.info
+Teste com cobertura de no minimo 10% = coverage/icov.info
 
 Gerência de estados = harpas/home.dart
 
