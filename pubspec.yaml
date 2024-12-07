@@ -1,0 +1,43 @@
+name: trabalhofluter
+description: "Harpa Crista"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  animated_text_kit: ^4.2.1
+  http: ^0.13.4
+  flutter_svg: ^1.0.3
+  dio: ^5.1.1
+  retrofit: ^4.0.1+1
+  json_annotation: ^4.8.1
+  path_provider: ^2.0.11
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  url_launcher: ^6.0.20
+  provider: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  retrofit_generator: ^5.0.0
+  build_runner: ^2.4.6
+  json_serializable: ^6.8.0
+  coverage: ^1.0.3
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: DancingScript
+      fonts:
+        - asset: fonts/Dancing_Script/static/DancingScript-Regular.ttf
+        - asset: fonts/Dancing_Script/static/DancingScript-Bold.ttf
+        - asset: fonts/Roboto/Roboto-Regular.ttf
+        - asset: fonts/Meow_Script/MeowScript-Regular.ttf
+          weight: 700
